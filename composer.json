@@ -1,0 +1,42 @@
+{
+    "name": "badmushroom/shorties",
+    "version": "dev-main",
+    "description": "A simple URL shortner for Laravel applications.",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/bad-mushroom/shorties/issues",
+        "source": "https://github.com/bad-mushroom/shorties"
+    },
+    "keywords": [
+        "url-shortener",
+        "links"
+    ],
+    "authors": [
+        {
+            "name": "Chris Sprague",
+            "email": "chris@chaoscontrol.org",
+            "homepage": "https://chaoscontrol.org",
+            "role": "Chief Shortner"
+        }
+    ],
+    "type": "library",
+    "readme": "README.md",
+    "autoload": {
+        "psr-4": {
+            "BadMushroom\\Shorties\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BadMushroom\\Shorties\\ShortiesServiceProvider"
+            ],
+            "aliases": {
+                "Shorty": "BadMushroom\\Shorties\\Facades\\Shorty"
+            }
+        }
+    }
+}
