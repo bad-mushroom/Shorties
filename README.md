@@ -1,3 +1,5 @@
+![shorties_logo_transparent_512x512](https://github.com/user-attachments/assets/1d1b3191-df78-4f2a-81d0-18332884090b)
+
 # Shorties
 
 A Laravel package for generating, managing, and tracking short URLs — complete with analytics, customizable routing, view overrides, and pruning.
