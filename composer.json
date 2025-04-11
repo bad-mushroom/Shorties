@@ -1,6 +1,5 @@
 {
     "name": "badmushroom/shorties",
-    "version": "dev-main",
     "description": "A simple URL shortner for Laravel applications.",
     "license": "MIT",
     "support": {
